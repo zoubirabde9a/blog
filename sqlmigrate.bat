@@ -1,0 +1,1 @@
+python manage.py sqlmigrate blog 0001

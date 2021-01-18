@@ -1,0 +1,7 @@
+Post.objects.all()
+Post.objects.all().first()
+Post.objects.filter(username='zoubir')
+Post.objects.get(id=1)
+
+user.post_set.all()
+user.post_set.create(title='ok', content='content')
